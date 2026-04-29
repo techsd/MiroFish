@@ -1,13 +1,13 @@
-# 🚀 **MiroFish - Zero Config Guide для Windows 11 UA + PowerShell 7**
+#  **MiroFish - Zero Config Guide для Windows 11 UA + PowerShell 7**
 
 ## **Про проект**
 **MiroFish** — мульти-агентний AI движок для прогнозування на основі групової інтелектуальності. Стек: Python 3.11-3.12 (backend) + Node.js 18+ (frontend).
 
 ---
 
-## **📋 ПІДГОТОВКА (One-Click)**
+## ** ПІДГОТОВКА (One-Click)**
 
-### **1️⃣ Встановіть Prerequisites**
+### ** Встановіть Prerequisites**
 
 **Відкрийте PowerShell 7 як Administrator** та виконайте:
 
@@ -29,9 +29,9 @@ uv --version
 
 ---
 
-## **🔑 КОНФІГУРАЦІЯ (Zero Config Magic)**
+## ** КОНФІГУРАЦІЯ (Zero Config Magic)**
 
-### **2️⃣ Клонування + .env Setup**
+### ** Клонування + .env Setup**
 
 ```powershell
 # Клон репозиторія
@@ -54,13 +54,13 @@ LLM_MODEL_NAME=qwen-plus
 ZEP_API_KEY=your_zep_key_here
 ```
 
-> 💡 **Без цих ключів = demo-режим (обмежено)**
+>  **Без цих ключів = demo-режим (обмежено)**
 
 ---
 
-## **⚡ АВТОМАТИЧНА УСТАНОВА (One Command)**
+## ** АВТОМАТИЧНА УСТАНОВА (One Command)**
 
-### **3️⃣ Full Setup**
+### ** Full Setup**
 
 ```powershell
 # ВЕСЬ СТЕК в одну команду
@@ -68,17 +68,17 @@ npm run setup:all
 ```
 
 **Що відбувається за кулісами:**
-- ✅ Node deps (root + frontend)
-- ✅ Python venv + deps (backend)
-- ✅ Автоматична конфігурація
+-  Node deps (root + frontend)
+-  Python venv + deps (backend)
+-  Автоматична конфігурація
 
-> ⏱️ Займає ~3-5 хвилин
+>  Займає ~3-5 хвилин
 
 ---
 
-## **🎯 ЗАПУСК**
+## ** ЗАПУСК**
 
-### **4️⃣ Start Services**
+### ** Start Services**
 
 ```powershell
 # ДВА сервіси паралельно (frontend + backend)
@@ -86,8 +86,8 @@ npm run dev
 ```
 
 **Готово! Отримаєте:**
-- 🌐 Frontend: `http://localhost:3000`
-- ⚙️ Backend API: `http://localhost:5001`
+-  Frontend: `http://localhost:3000`
+-  Backend API: `http://localhost:5001`
 
 **Або окремо:**
 ```powershell
@@ -97,7 +97,7 @@ npm run frontend   # Тільки frontend
 
 ---
 
-## **🛠️ УПРАВЛІННЯ (Advanced)**
+## ** УПРАВЛІННЯ (Advanced)**
 
 ### **Backend Only (PowerShell)**
 
@@ -122,7 +122,7 @@ npm run build
 
 ---
 
-## **🐳 Docker (Альтернатива)**
+## ** Docker (Альтернатива)**
 
 Якщо НЕ хочете встановлювати Python:
 
@@ -142,7 +142,7 @@ docker compose up -d
 
 ---
 
-## **❌ Troubleshooting**
+## ** Troubleshooting**
 
 | Проблема | Рішення |
 |----------|---------|
@@ -154,7 +154,7 @@ docker compose up -d
 
 ---
 
-## **📊 Project Structure**
+## ** Project Structure**
 
 ```
 MiroFish/
@@ -172,7 +172,7 @@ MiroFish/
 
 ---
 
-## **🚀 Quick Commands Cheatsheet**
+## ** Quick Commands Cheatsheet**
 
 ```powershell
 # Install ALL
@@ -197,16 +197,16 @@ docker compose down
 
 ---
 
-## **✨ Готово!**
+## ** Готово!**
 
-1. ✅ Встановлено Prerequisites
-2. ✅ Налаштовано .env
-3. ✅ Запущено `npm run setup:all`
-4. ✅ Стартовано `npm run dev`
-5. ✅ Відкрито http://localhost:3000
+1.  Встановлено Prerequisites
+2.  Налаштовано .env
+3.  Запущено `npm run setup:all`
+4.  Стартовано `npm run dev`
+5.  Відкрито http://localhost:3000
 
 
-🔹 **Next Steps**:
+ **Next Steps**:
 - Додайте дані в БД через `http://localhost:5001/admin`
 - Додайте API ключі в `.env`
 - Перевірте логіку в `backend/app/`

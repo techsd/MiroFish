@@ -1,10 +1,10 @@
-# 🚀 MiroFish - Швидкий Старт (Windows 11 + PowerShell 7)
+#  MiroFish - Швидкий Старт (Windows 11 + PowerShell 7)
 
 > **За 5 хвилин від нуля до запуску на Windows 11 з PowerShell 7**
 
 ---
 
-## 📋 Що таке MiroFish?
+##  Що таке MiroFish?
 
 **MiroFish** — мульти-агентний AI движок для прогнозування на основі групової інтелектуальності.
 
@@ -14,7 +14,7 @@
 
 ---
 
-## ⚡ Швидкий Старт (5 хвилин)
+##  Швидкий Старт (5 хвилин)
 
 ### **1. Встановіть Prerequisites**
 
@@ -52,7 +52,7 @@ LLM_MODEL_NAME=qwen-plus
 ZEP_API_KEY=your_zep_api_key_here
 ```
 
-> 💡 Ключі отримайте на: [Alibaba Bailian](https://bailian.console.aliyun.com/) + [Zep Cloud](https://app.getzep.com/)
+>  Ключі отримайте на: [Alibaba Bailian](https://bailian.console.aliyun.com/) + [Zep Cloud](https://app.getzep.com/)
 
 ---
 
@@ -63,11 +63,11 @@ npm run setup:all
 ```
 
 **Що відбувається:**
-- ✅ Node deps (root + frontend)
-- ✅ Python venv + deps (backend)
-- ✅ Автоматична конфігурація
+-  Node deps (root + frontend)
+-  Python venv + deps (backend)
+-  Автоматична конфігурація
 
-> ⏱️ ~3-5 хвилин
+>  ~3-5 хвилин
 
 ---
 
@@ -77,13 +77,13 @@ npm run setup:all
 npm run dev
 ```
 
-**Готово! 🎉**
-- 🌐 Frontend: http://localhost:3000
-- ⚙️ Backend: http://localhost:5001
+**Готово! **
+-  Frontend: http://localhost:3000
+-  Backend: http://localhost:5001
 
 ---
 
-## 🛠️ Окремий Запуск
+##  Окремий Запуск
 
 ```powershell
 npm run backend    # Тільки backend
@@ -93,7 +93,7 @@ npm run build      # Production build
 
 ---
 
-## 🐳 Docker (без Python)
+##  Docker (без Python)
 
 ```powershell
 winget install Docker.DockerDesktop
@@ -107,7 +107,7 @@ docker compose up -d
 
 ---
 
-## ❌ Проблеми & Рішення
+##  Проблеми & Рішення
 
 | Проблема | Рішення |
 |----------|---------|
@@ -119,7 +119,7 @@ docker compose up -d
 
 ---
 
-## 📂 Структура Проекту
+##  Структура Проекту
 
 ```
 MiroFish/
@@ -137,7 +137,7 @@ MiroFish/
 
 ---
 
-## 📝 Команди (Шпаргалка)
+##  Команди (Шпаргалка)
 
 ```powershell
 # Install all dependencies
@@ -162,21 +162,21 @@ docker compose down
 
 ---
 
-## 🔗 Посилання
+##  Посилання
 
-- 📖 [GitHub](https://github.com/techsd/MiroFish)
-- 🌐 [Live Demo](https://mirofish.ai)
-- 💬 [Discord](http://discord.gg/ePf5aPaHnA)
-- 🐦 [X/Twitter](https://x.com/mirofish_ai)
-- 📷 [Instagram](https://www.instagram.com/mirofish_ai/)
+-  [GitHub](https://github.com/techsd/MiroFish)
+-  [Live Demo](https://mirofish.ai)
+-  [Discord](http://discord.gg/ePf5aPaHnA)
+-  [X/Twitter](https://x.com/mirofish_ai)
+-  [Instagram](https://www.instagram.com/mirofish_ai/)
 
 ---
 
-## ✨ Готово!
+##  Готово!
 
-1. ✅ Встановлено Prerequisites
-2. ✅ Налаштовано `.env`
-3. ✅ Запущено `npm run setup:all`
-4. ✅ Стартовано `npm run dev`
-5. ✅ Відкрито http://localhost:3000
+1.  Встановлено Prerequisites
+2.  Налаштовано `.env`
+3.  Запущено `npm run setup:all`
+4.  Стартовано `npm run dev`
+5.  Відкрито http://localhost:3000
 
