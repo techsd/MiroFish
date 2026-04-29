@@ -26,5 +26,9 @@
   "de": {
     "label": "Deutsch",
     "llmInstruction": "Bitte antworten Sie auf Deutsch."
+  },
+  "uk": {
+    "label": "Українська",
+    "llmInstruction": "Будь ласка, відповідай українською мовою."
   }
 }
