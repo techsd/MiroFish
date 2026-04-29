@@ -205,8 +205,9 @@ docker compose down
 4. ✅ Стартовано `npm run dev`
 5. ✅ Відкрито http://localhost:3000
 
-**Ви готові до мульти-агентного прогнозування!** 🎯
 
----
-
-**Питання?** Дивіться [офіційну документацію](https://github.com/666ghj/MiroFish) або Discord: http://discord.gg/ePf5aPaHnA
+🔹 **Next Steps**:
+- Додайте дані в БД через `http://localhost:5001/admin`
+- Додайте API ключі в `.env`
+- Перевірте логіку в `backend/app/`
+- Додайте компоненти в `frontend/src/`
